@@ -1,10 +1,7 @@
-package com.hr190005.kursat_uysal_final.Activities;
+package com.hr190005.kursat_uysal_final.activities;
 
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -28,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
 
 
     public void splashActivity(){
-
+        // interneti kontrol ediyoruz
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
@@ -46,7 +43,7 @@ public class SplashActivity extends AppCompatActivity {
     }
 
 
-
+        // internet yok ise ayarlara yönlendiriyoruz
     private void alertDialog(){
         AlertDialog.Builder dialog = new AlertDialog.Builder(SplashActivity.this);
         dialog.setTitle(R.string.no_connection);

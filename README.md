@@ -13,7 +13,8 @@
 ![5](https://user-images.githubusercontent.com/76122579/104728252-a9eb5980-5747-11eb-8670-7c1220600832.jpg)
 
 ### Clean Simple Architecture
-![csimarc](https://user-images.githubusercontent.com/76122579/104728405-eae36e00-5747-11eb-9968-8e75d9dd82d2.jpg)
+![kuysalmimariss](https://user-images.githubusercontent.com/53614606/105419367-a841fa00-5c4f-11eb-8ddc-2279fe3b3417.jpg)
+
 
 ### Libraries and tools 
 * [Glide](https://github.com/bumptech/glide)

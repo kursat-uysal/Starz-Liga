@@ -7,6 +7,8 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class GithubModel implements Parcelable{
+////Versiyonlar için model dosyası
+
 
     @SerializedName("index")
     @Expose

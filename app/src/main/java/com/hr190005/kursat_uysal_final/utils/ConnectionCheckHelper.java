@@ -6,6 +6,8 @@ import android.net.NetworkInfo;
 
 public class ConnectionCheckHelper {
 
+//İnternet bağlantı kontrolünü yapıyor
+
     public static boolean isNetworkAvailable(Context context) {
         ConnectivityManager connectivityManager
                 = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);

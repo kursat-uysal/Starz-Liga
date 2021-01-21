@@ -1,4 +1,4 @@
-package com.hr190005.kursat_uysal_final.Activities;
+package com.hr190005.kursat_uysal_final.activities;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -30,7 +30,7 @@ public class ApplicationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        // Burada xml layout id yi bağlıyoruz
         recyclerView_teams = findViewById(R.id.recyclerView_teams);
 
         githubViewModel = new ViewModelProvider(this).get(GithubViewModel.class);
@@ -45,7 +45,7 @@ public class ApplicationActivity extends AppCompatActivity {
     public void onBackPressed() {
         alertDialogExit();
     }
-
+        //çıkış yapılsınmı diyalogu
     private void alertDialogExit(){
         AlertDialog.Builder dialog = new AlertDialog.Builder(ApplicationActivity.this);
         dialog.setTitle(R.string.close_app);

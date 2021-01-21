@@ -1,6 +1,8 @@
 package com.hr190005.kursat_uysal_final.retrofit;
 
 
+//hangi endpoint hangi fonksiyon onu ayarlıyoruz
+
 
 
 import com.hr190005.kursat_uysal_final.model.GithubModel;
@@ -12,7 +14,7 @@ import retrofit2.http.GET;
 
 public interface APIService {
 
-    @GET("https://github.com/kursat-uysal/hr190005kursatuysal/blob/master/teams_last.json")
+    @GET("kursat-uysal/hr190005kursatuysal/master/teams_last.json")
     Call<List<GithubModel>> getGithubList();
 
 }

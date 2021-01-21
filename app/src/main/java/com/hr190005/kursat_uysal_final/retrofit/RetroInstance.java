@@ -10,7 +10,7 @@ public class RetroInstance {
     private static Retrofit retrofit;
 
 
-
+    ////retrofit ile ilgili ayarları yap, gönder
     public static Retrofit getRetroClient() {
         OkHttpClient okClient = new OkHttpClient.Builder()
                 .build();

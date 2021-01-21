@@ -28,6 +28,9 @@ public class TeamsAdapter extends RecyclerView.Adapter<TeamsAdapter.TeamsAdapter
 
     }
 
+//Önyüzdeki ilgili nesneleri arka yüze alıyoruz
+
+
     public class TeamsAdapterJavaViewHolder extends RecyclerView.ViewHolder {
 
         TextView textView_team_name, textView_team_detail_info;
