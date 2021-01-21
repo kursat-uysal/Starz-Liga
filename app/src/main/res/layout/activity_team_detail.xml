@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_of_app"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        app:cardCornerRadius="100dp"
+
+        >
+    <ImageView
+        android:id="@+id/imageView_team_logo_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"></ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/img_favorite_team_star"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:visibility="gone"
+        android:background="@drawable/ic_baseline_stars_24"
+        android:layout_toLeftOf="@id/cardView_logo"></ImageView>
+
+
+    <TextView
+        android:id="@+id/textView_team_name_detail"
+        android:layout_below="@id/cardView_logo"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/team_name_detail_2"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/logo_main_2"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/textView_kurulus_tarih"
+        android:layout_below="@id/textView_team_name_detail"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/logo_main_2"
+        android:gravity="center"
+        ></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/textView_kurulus_tarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+     >
+
+
+
+
+    <TextView
+        android:id="@+id/textView_detail_of_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/item_team_detail"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/logo_main"
+        ></TextView>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

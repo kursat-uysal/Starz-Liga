@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Starz Liga</string>
+    <string name="app_info">Hoşgeldiniz, uygulamam ile futbol takımları hakkında bilgiler bulacaksınız. Şu an yapım aşamasında olduğu için sadece 6 takımın bilgilerine ulaşabilirsiniz.</string>
+    <string name="no_connection">İnternet Bağlantınız Yok</string>
+    <string name="connect_to_internet">Uygulamayı kullanmak için internete bağlayın.</string>
+    <string name="close">Kapat</string>
+    <string name="open_network">İnterneti Aç</string>
+    <string name="close_app">Uygulamadan Çıkış</string>
+    <string name="close_app_question">Uygulamayı kapatmak istiyor musunuz?</string>
+    <string name="exit">Çıkış</string>
+    <string name="cancel">İptal</string>
+
+
+
+
+
+</resources>
