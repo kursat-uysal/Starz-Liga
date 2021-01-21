@@ -1,0 +1,53 @@
+com/hr190005/kursat_uysal_final/viewModel/GithubViewModel.java
+ com.hr190005.kursat_uysal_final.viewModel.GithubViewModel
+ com.hr190005.kursat_uysal_final.viewModel.GithubViewModel$1
+com/hr190005/kursat_uysal_final/SplashActivity.java
+ com.hr190005.kursat_uysal_final.SplashActivity
+ com.hr190005.kursat_uysal_final.SplashActivity$1
+ com.hr190005.kursat_uysal_final.SplashActivity$2
+ com.hr190005.kursat_uysal_final.SplashActivity$3
+com/hr190005/kursat_uysal_final/adapter/TeamsAdapter.java
+ com.hr190005.kursat_uysal_final.adapter.TeamsAdapter
+ com.hr190005.kursat_uysal_final.adapter.TeamsAdapter$OnItemClickListener
+ com.hr190005.kursat_uysal_final.adapter.TeamsAdapter$TeamsAdapterJavaViewHolder
+ com.hr190005.kursat_uysal_final.adapter.TeamsAdapter$TeamsAdapterJavaViewHolder$1
+com/hr190005/kursat_uysal_final/Activities/SplashActivity.java
+ com.hr190005.kursat_uysal_final.Activities.SplashActivity
+ com.hr190005.kursat_uysal_final.Activities.SplashActivity$1
+ com.hr190005.kursat_uysal_final.Activities.SplashActivity$2
+ com.hr190005.kursat_uysal_final.Activities.SplashActivity$3
+com/hr190005/kursat_uysal_final/model/GithubModel.java
+ com.hr190005.kursat_uysal_final.model.GithubModel
+ com.hr190005.kursat_uysal_final.model.GithubModel$1
+com/hr190005/kursat_uysal_final/utils/network/App.java
+ com.hr190005.kursat_uysal_final.utils.network.App
+com/hr190005/kursat_uysal_final/Activities/TeamDetailActivity.java
+ com.hr190005.kursat_uysal_final.Activities.TeamDetailActivity
+com/hr190005/kursat_uysal_final/utils/ConnectionCheckHelper.java
+ com.hr190005.kursat_uysal_final.utils.ConnectionCheckHelper
+com/hr190005/kursat_uysal_final/BuildConfig.java
+ com.hr190005.kursat_uysal_final.BuildConfig
+com/hr190005/kursat_uysal_final/Activities/ApplicationActivity.java
+ com.hr190005.kursat_uysal_final.Activities.ApplicationActivity
+ com.hr190005.kursat_uysal_final.Activities.ApplicationActivity$1
+ com.hr190005.kursat_uysal_final.Activities.ApplicationActivity$2
+ com.hr190005.kursat_uysal_final.Activities.ApplicationActivity$3
+ com.hr190005.kursat_uysal_final.Activities.ApplicationActivity$3$1
+com/hr190005/kursat_uysal_final/retrofit/RetroInstance.java
+ com.hr190005.kursat_uysal_final.retrofit.RetroInstance
+com/hr190005/kursat_uysal_final/TeamDetailActivity.java
+ com.hr190005.kursat_uysal_final.TeamDetailActivity
+com/hr190005/kursat_uysal_final/utils/Constants.java
+ com.hr190005.kursat_uysal_final.utils.Constants
+com/hr190005/kursat_uysal_final/retrofit/APIService.java
+ com.hr190005.kursat_uysal_final.retrofit.APIService
+com/hr190005/kursat_uysal_final/utils/GlideHelper.java
+ com.hr190005.kursat_uysal_final.utils.GlideHelper
+com/hr190005/kursat_uysal_final/ApplicationActivity.java
+ com.hr190005.kursat_uysal_final.ApplicationActivity
+ com.hr190005.kursat_uysal_final.ApplicationActivity$1
+ com.hr190005.kursat_uysal_final.ApplicationActivity$2
+ com.hr190005.kursat_uysal_final.ApplicationActivity$3
+ com.hr190005.kursat_uysal_final.ApplicationActivity$3$1
+com/hr190005/kursat_uysal_final/MyApplication.java
+ com.hr190005.kursat_uysal_final.MyApplication
